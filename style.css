@@ -1,0 +1,26 @@
+h1  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+#info_celestina, #info_sempronio, #info_ninja {
+    background: #71f442;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top:200px;
+    left:36%;
+    opacity:0;
+    background-color: #0C0;
+}
+#personajes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
