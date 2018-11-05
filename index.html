@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>La celestina</title>
+        <script src="code.js" type="text/javascript" charset="utf-8"></script>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+<body>
+ <h1>La Celestina</h1>
+ <div id="personajes">
+   <img id="celestina"        
+        src="https://docs.google.com/drawings/d/e/2PACX-1vRFt73WDWb_3i_-F8Fei766pUvzE6C7-11tZaBJisPCxFsTvWFw4q3zdxutkJBytFbjeXplN7_By4M-/pub?w=370&h=379" 
+        height="150" size="150" alt="Johnson Pond" 
+        onmouseover="fadeIn('info_celestina');" 
+        onmouseout="fadeOut('info_celestina');">
+    <img id="sempronio" src="https://1001freedownloads.s3.amazonaws.com/vector/thumb/72002/1376606916.png" height="150" size="150" alt="Johnson Pond" onmouseover="fadeIn('info_sempronio');" onmouseout="fadeOut('info_sempronio');">
+    <img id="ninja" src="https://1001freedownloads.s3.amazonaws.com/vector/thumb/98736/1299313061.png" height="150" size="50" alt="Johnson Pond" onmouseover="fadeIn('info_ninja');" onmouseout="fadeOut('info_ninja');">
+</div>
+<div id=info_personaje> 
+    <div id="info_celestina">Celestina era...</div>
+    <div id="info_sempronio">Sempronio era...</div>
+    <div id="info_ninja">Ninja era...</div>
+</div>
+    <script>
+        function fadeOut(el) {
+        var elem = document.getElementById(el);
+        elem.style.transition = "opacity 0.5s linear 0s";
+        elem.style.opacity = 0;
+        }
+
+        function fadeIn(el) {
+            var elem = document.getElementById(el);
+            elem.style.transition = "opacity 0.5s linear 0s";
+            elem.style.opacity = 1;
+        }
+    </script>
+</body>
+</html>
+    
